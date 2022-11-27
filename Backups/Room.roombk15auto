@@ -1,0 +1,905 @@
+{
+    "name": "測試專案",
+    "description": "Description",
+    "majorVersion": 1,
+    "minorVersion": 0,
+    "pointVersion": 24338,
+    "tags": [],
+    "cameraScreenshotPosition": {
+        "x": 0.0,
+        "y": 1.7000000476837159,
+        "z": -0.699999988079071
+    },
+    "cameraScreenshotRotation": {
+        "x": 45.000003814697269,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "cameraEditPosition": {
+        "x": -4.440110683441162,
+        "y": 6.090929985046387,
+        "z": -1.7587449550628663
+    },
+    "cameraEditRotation": {
+        "x": 25.60091781616211,
+        "y": 101.39926147460938,
+        "z": 9.467170229982003e-7
+    },
+    "useNonLegacyLights": true,
+    "useNonLegacyFloorColliders": true,
+    "forcePostProcessing": false,
+    "hidePlayerNameplates": false,
+    "hideItemNameplates": false,
+    "useProximityChat": false,
+    "useSkyboxPreview": true,
+    "usePostProcessingPreview": true,
+    "props": [
+        {
+            "propID": {
+                "value": "Base/EditorLight"
+            },
+            "ID": {
+                "value": 1
+            },
+            "parentID": {
+                "value": 0
+            },
+            "transform": {
+                "local": false,
+                "position": {
+                    "x": 0.0,
+                    "y": 5.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 50.00001907348633,
+                    "y": 315.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 0.9999997615814209
+                }
+            },
+            "isObstacle": false,
+            "exportName": "",
+            "elementNameSet": true,
+            "elementName": "Light",
+            "playerVariableNameSet": true,
+            "playerVariableName": "",
+            "pickableType": 0,
+            "updateCloneTypeApplied": true,
+            "updateCloneType": 0,
+            "transparencyOrderOffset": 0,
+            "rigidbody": [],
+            "_switch": [],
+            "turnable": [],
+            "dial": [],
+            "zoomable": [],
+            "dragTarget": [],
+            "_lock": [],
+            "slot": [],
+            "trigger": [],
+            "teleport": [],
+            "fog": [],
+            "sound": [],
+            "skybox": [],
+            "swapTextures": [],
+            "paintTextures": [],
+            "openLink": [],
+            "activatorComponent": [],
+            "editorLight": [
+                {
+                    "type": 1,
+                    "range": 10.0,
+                    "spotAngle": 30.0,
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "intensity": 1.0
+                }
+            ],
+            "customModel": [],
+            "postProcessing": [],
+            "scriptComponent": [],
+            "finish": [],
+            "display": [],
+            "slidable": []
+        },
+        {
+            "propID": {
+                "value": "Base/SpawnPoint"
+            },
+            "ID": {
+                "value": 2
+            },
+            "parentID": {
+                "value": 0
+            },
+            "transform": {
+                "local": false,
+                "position": {
+                    "x": -0.18375524878501893,
+                    "y": 0.9500926733016968,
+                    "z": -6.415259838104248
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.00001001791224553017,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 2.0000014305114748,
+                    "y": 2.0,
+                    "z": 2.0000014305114748
+                }
+            },
+            "isObstacle": false,
+            "exportName": "",
+            "elementNameSet": true,
+            "elementName": "Spawn",
+            "playerVariableNameSet": true,
+            "playerVariableName": "",
+            "pickableType": 0,
+            "updateCloneTypeApplied": true,
+            "updateCloneType": 0,
+            "transparencyOrderOffset": 0,
+            "rigidbody": [],
+            "_switch": [],
+            "turnable": [],
+            "dial": [],
+            "zoomable": [],
+            "dragTarget": [],
+            "_lock": [],
+            "slot": [],
+            "trigger": [],
+            "teleport": [],
+            "fog": [],
+            "sound": [],
+            "skybox": [],
+            "swapTextures": [],
+            "paintTextures": [],
+            "openLink": [],
+            "activatorComponent": [],
+            "editorLight": [],
+            "customModel": [],
+            "postProcessing": [],
+            "scriptComponent": [],
+            "finish": [],
+            "display": [],
+            "slidable": []
+        },
+        {
+            "propID": {
+                "value": "Base/ColliderComponent"
+            },
+            "ID": {
+                "value": 3
+            },
+            "parentID": {
+                "value": 0
+            },
+            "transform": {
+                "local": false,
+                "position": {
+                    "x": -0.0020000000949949028,
+                    "y": 1.5,
+                    "z": -3.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 3.0000057220458986,
+                    "y": 3.0,
+                    "z": 3.0000057220458986
+                }
+            },
+            "isObstacle": false,
+            "exportName": "",
+            "elementNameSet": true,
+            "elementName": "Collider",
+            "playerVariableNameSet": true,
+            "playerVariableName": "",
+            "pickableType": 0,
+            "updateCloneTypeApplied": true,
+            "updateCloneType": 0,
+            "transparencyOrderOffset": 0,
+            "rigidbody": [],
+            "_switch": [],
+            "turnable": [],
+            "dial": [],
+            "zoomable": [],
+            "dragTarget": [],
+            "_lock": [],
+            "slot": [],
+            "trigger": [],
+            "teleport": [],
+            "fog": [],
+            "sound": [],
+            "skybox": [],
+            "swapTextures": [],
+            "paintTextures": [],
+            "openLink": [],
+            "activatorComponent": [],
+            "editorLight": [],
+            "customModel": [],
+            "postProcessing": [],
+            "scriptComponent": [],
+            "finish": [],
+            "display": [],
+            "slidable": []
+        },
+        {
+            "propID": {
+                "value": "Plane"
+            },
+            "ID": {
+                "value": 7
+            },
+            "parentID": {
+                "value": 0
+            },
+            "transform": {
+                "local": false,
+                "position": {
+                    "x": 0.2759999930858612,
+                    "y": 0.5107517242431641,
+                    "z": 0.3479999899864197
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0000061988830567,
+                    "y": 1.0000028610229493,
+                    "z": 1.0000030994415284
+                }
+            },
+            "isObstacle": false,
+            "exportName": "",
+            "elementNameSet": true,
+            "elementName": "Plane",
+            "playerVariableNameSet": true,
+            "playerVariableName": "",
+            "pickableType": 2,
+            "updateCloneTypeApplied": true,
+            "updateCloneType": 0,
+            "transparencyOrderOffset": 0,
+            "rigidbody": [],
+            "_switch": [],
+            "turnable": [],
+            "dial": [],
+            "zoomable": [],
+            "dragTarget": [],
+            "_lock": [],
+            "slot": [],
+            "trigger": [],
+            "teleport": [],
+            "fog": [],
+            "sound": [],
+            "skybox": [],
+            "swapTextures": [],
+            "paintTextures": [],
+            "openLink": [],
+            "activatorComponent": [],
+            "editorLight": [],
+            "customModel": [],
+            "postProcessing": [],
+            "scriptComponent": [],
+            "finish": [],
+            "display": [],
+            "slidable": []
+        }
+    ],
+    "floors": [
+        {
+            "x": 0,
+            "y": 0,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWallDoor"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "floorID": {
+                "value": "Floor/_InitialFloor"
+            },
+            "ceilingID": {
+                "value": "Ceiling/_InitialCeiling"
+            },
+            "wallIDs": [
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                },
+                {
+                    "value": "Wall/VictorianWall"
+                }
+            ],
+            "floorPaintTextures": [],
+            "ceilingPaintTextures": [],
+            "wallPaintTextures0": [],
+            "wallPaintTextures1": [],
+            "wallPaintTextures2": [],
+            "wallPaintTextures3": []
+        }
+    ]
+}
