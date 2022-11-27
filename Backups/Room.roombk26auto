@@ -220,7 +220,7 @@
                     "outputValueApplied": true,
                     "outputValue": 1,
                     "bounce": true,
-                    "loop": false,
+                    "loop": true,
                     "autoplay": false,
                     "delay": 0.0,
                     "pauseOnLoop": 0.0,

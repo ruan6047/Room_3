@@ -16,14 +16,14 @@
         "z": 0.0
     },
     "cameraEditPosition": {
-        "x": 0.1197027862071991,
-        "y": 2.930114507675171,
-        "z": -0.08946943283081055
+        "x": -1.6682261228561402,
+        "y": 6.282318115234375,
+        "z": -4.040287971496582
     },
     "cameraEditRotation": {
-        "x": 65.08270263671875,
-        "y": 19.660579681396486,
-        "z": 0.0000020264753857190955
+        "x": 75.70819091796875,
+        "y": 346.9486389160156,
+        "z": -0.0000017292629763687729
     },
     "useNonLegacyLights": true,
     "useNonLegacyFloorColliders": true,
@@ -58,7 +58,7 @@
                 },
                 "scale": {
                     "x": 1.0,
-                    "y": 1.0000003576278687,
+                    "y": 1.000000238418579,
                     "z": 0.9999997615814209
                 }
             },
@@ -175,6 +175,69 @@
         },
         {
             "propID": {
+                "value": "Base/ColliderComponent"
+            },
+            "ID": {
+                "value": 3
+            },
+            "parentID": {
+                "value": 7
+            },
+            "transform": {
+                "local": false,
+                "position": {
+                    "x": -0.0020000338554382326,
+                    "y": 1.5,
+                    "z": -3.000000238418579
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 3.000009536743164,
+                    "y": 3.000000238418579,
+                    "z": 3.000009536743164
+                }
+            },
+            "isObstacle": false,
+            "exportName": "",
+            "elementNameSet": true,
+            "elementName": "Collider",
+            "playerVariableNameSet": true,
+            "playerVariableName": "",
+            "pickableType": 0,
+            "updateCloneTypeApplied": true,
+            "updateCloneType": 0,
+            "transparencyOrderOffset": 0,
+            "rigidbody": [],
+            "_switch": [],
+            "turnable": [],
+            "dial": [],
+            "zoomable": [],
+            "dragTarget": [],
+            "_lock": [],
+            "slot": [],
+            "trigger": [],
+            "teleport": [],
+            "fog": [],
+            "sound": [],
+            "skybox": [],
+            "swapTextures": [],
+            "paintTextures": [],
+            "openLink": [],
+            "activatorComponent": [],
+            "editorLight": [],
+            "customModel": [],
+            "postProcessing": [],
+            "scriptComponent": [],
+            "finish": [],
+            "display": [],
+            "slidable": []
+        },
+        {
+            "propID": {
                 "value": "Plane"
             },
             "ID": {
@@ -206,7 +269,7 @@
             "elementNameSet": true,
             "elementName": "Plane",
             "playerVariableNameSet": true,
-            "playerVariableName": "A",
+            "playerVariableName": "",
             "pickableType": 2,
             "updateCloneTypeApplied": true,
             "updateCloneType": 0,
@@ -220,8 +283,8 @@
                     "outputValueApplied": true,
                     "outputValue": 1,
                     "bounce": true,
-                    "loop": false,
-                    "autoplay": false,
+                    "loop": true,
+                    "autoplay": true,
                     "delay": 0.0,
                     "pauseOnLoop": 0.0,
                     "pauseOnBounce": 0.10000000149011612,
@@ -260,95 +323,6 @@
             "_lock": [],
             "slot": [],
             "trigger": [],
-            "teleport": [],
-            "fog": [],
-            "sound": [],
-            "skybox": [],
-            "swapTextures": [],
-            "paintTextures": [],
-            "openLink": [],
-            "activatorComponent": [],
-            "editorLight": [],
-            "customModel": [],
-            "postProcessing": [],
-            "scriptComponent": [],
-            "finish": [],
-            "display": [],
-            "slidable": []
-        },
-        {
-            "propID": {
-                "value": "Base/Trigger"
-            },
-            "ID": {
-                "value": 10
-            },
-            "parentID": {
-                "value": 0
-            },
-            "transform": {
-                "local": false,
-                "position": {
-                    "x": 0.0,
-                    "y": 1.7999999523162842,
-                    "z": -3.0
-                },
-                "rotation": {
-                    "x": 270.0,
-                    "y": 0.000010017911336035468,
-                    "z": 0.0
-                },
-                "scale": {
-                    "x": 3.0,
-                    "y": 3.000016450881958,
-                    "z": 3.000016450881958
-                }
-            },
-            "isObstacle": false,
-            "exportName": "",
-            "elementNameSet": true,
-            "elementName": "Trigger",
-            "playerVariableNameSet": true,
-            "playerVariableName": "A_1",
-            "pickableType": 0,
-            "updateCloneTypeApplied": true,
-            "updateCloneType": 0,
-            "transparencyOrderOffset": 0,
-            "rigidbody": [
-                {
-                    "isKinematic": true,
-                    "mass": 1.0
-                }
-            ],
-            "_switch": [],
-            "turnable": [],
-            "dial": [],
-            "zoomable": [],
-            "dragTarget": [],
-            "_lock": [],
-            "slot": [],
-            "trigger": [
-                {
-                    "canPlayerTrigger": true,
-                    "triggerWhenAllPlayersEnter": false,
-                    "isSticky": false,
-                    "outputValueApplied": true,
-                    "outputValue": 1,
-                    "keys": [],
-                    "targetsEnter": [
-                        {
-                            "value": 7
-                        }
-                    ],
-                    "locksEnter": [],
-                    "targetsExit": [
-                        {
-                            "value": 7
-                        }
-                    ],
-                    "locksExit": []
-                }
-            ],
             "teleport": [],
             "fog": [],
             "sound": [],

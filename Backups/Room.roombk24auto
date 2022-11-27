@@ -16,14 +16,14 @@
         "z": 0.0
     },
     "cameraEditPosition": {
-        "x": 0.1197027862071991,
-        "y": 2.930114507675171,
-        "z": -0.08946943283081055
+        "x": -0.2912411093711853,
+        "y": 5.143979072570801,
+        "z": -1.2396844625473023
     },
     "cameraEditRotation": {
-        "x": 65.08270263671875,
-        "y": 19.660579681396486,
-        "z": 0.0000020264753857190955
+        "x": 62.318790435791019,
+        "y": 19.66057777404785,
+        "z": 0.0
     },
     "useNonLegacyLights": true,
     "useNonLegacyFloorColliders": true,
@@ -220,7 +220,7 @@
                     "outputValueApplied": true,
                     "outputValue": 1,
                     "bounce": true,
-                    "loop": false,
+                    "loop": true,
                     "autoplay": false,
                     "delay": 0.0,
                     "pauseOnLoop": 0.0,
@@ -300,8 +300,8 @@
                 },
                 "scale": {
                     "x": 3.0,
-                    "y": 3.000016450881958,
-                    "z": 3.000016450881958
+                    "y": 3.000014066696167,
+                    "z": 3.000014066696167
                 }
             },
             "isObstacle": false,

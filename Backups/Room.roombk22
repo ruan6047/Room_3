@@ -16,14 +16,14 @@
         "z": 0.0
     },
     "cameraEditPosition": {
-        "x": 0.1197027862071991,
-        "y": 2.930114507675171,
-        "z": -0.08946943283081055
+        "x": -5.018010139465332,
+        "y": 6.853627681732178,
+        "z": -2.562998056411743
     },
     "cameraEditRotation": {
-        "x": 65.08270263671875,
-        "y": 19.660579681396486,
-        "z": 0.0000020264753857190955
+        "x": 37.6009635925293,
+        "y": 35.69930648803711,
+        "z": 0.000002155233687517466
     },
     "useNonLegacyLights": true,
     "useNonLegacyFloorColliders": true,
@@ -58,7 +58,7 @@
                 },
                 "scale": {
                     "x": 1.0,
-                    "y": 1.0000003576278687,
+                    "y": 1.0000001192092896,
                     "z": 0.9999997615814209
                 }
             },
@@ -175,10 +175,10 @@
         },
         {
             "propID": {
-                "value": "Plane"
+                "value": "Base/ColliderComponent"
             },
             "ID": {
-                "value": 7
+                "value": 3
             },
             "parentID": {
                 "value": 0
@@ -186,73 +186,33 @@
             "transform": {
                 "local": false,
                 "position": {
-                    "x": 0.2759999930858612,
-                    "y": 1.930114507675171,
-                    "z": 0.3479999899864197
+                    "x": -0.0020000000949949028,
+                    "y": 1.5,
+                    "z": -3.0
                 },
                 "rotation": {
                     "x": 0.0,
-                    "y": 180.0,
+                    "y": 270.0,
                     "z": 0.0
                 },
                 "scale": {
-                    "x": 1.0000061988830567,
-                    "y": 1.0000028610229493,
-                    "z": 1.0000030994415284
+                    "x": 3.000006914138794,
+                    "y": 3.0,
+                    "z": 3.000006914138794
                 }
             },
             "isObstacle": false,
             "exportName": "",
             "elementNameSet": true,
-            "elementName": "Plane",
+            "elementName": "Collider",
             "playerVariableNameSet": true,
-            "playerVariableName": "A",
-            "pickableType": 2,
+            "playerVariableName": "",
+            "pickableType": 0,
             "updateCloneTypeApplied": true,
             "updateCloneType": 0,
             "transparencyOrderOffset": 0,
             "rigidbody": [],
-            "_switch": [
-                {
-                    "isRemote": true,
-                    "isSticky": false,
-                    "duration": 0.5,
-                    "outputValueApplied": true,
-                    "outputValue": 1,
-                    "bounce": true,
-                    "loop": false,
-                    "autoplay": false,
-                    "delay": 0.0,
-                    "pauseOnLoop": 0.0,
-                    "pauseOnBounce": 0.10000000149011612,
-                    "canPickupDuringAnimation": false,
-                    "appliedPickupInZoomFix": true,
-                    "playerVariableName": "",
-                    "interpolation": 0,
-                    "remoteTargets": [],
-                    "pivot": {
-                        "local": true,
-                        "position": {
-                            "x": 0.0,
-                            "y": 0.7497621178627014,
-                            "z": 0.0
-                        },
-                        "rotation": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0,
-                            "z": 1.0
-                        }
-                    },
-                    "locks": [],
-                    "useRigidbody": false,
-                    "useRigidbodyApplied": true
-                }
-            ],
+            "_switch": [],
             "turnable": [],
             "dial": [],
             "zoomable": [],
@@ -278,10 +238,10 @@
         },
         {
             "propID": {
-                "value": "Base/Trigger"
+                "value": "Plane"
             },
             "ID": {
-                "value": 10
+                "value": 7
             },
             "parentID": {
                 "value": 0
@@ -289,37 +249,32 @@
             "transform": {
                 "local": false,
                 "position": {
-                    "x": 0.0,
-                    "y": 1.7999999523162842,
-                    "z": -3.0
+                    "x": 0.2759999930858612,
+                    "y": 1.1096224784851075,
+                    "z": 0.3479999899864197
                 },
                 "rotation": {
-                    "x": 270.0,
-                    "y": 0.000010017911336035468,
+                    "x": 0.0,
+                    "y": 180.0,
                     "z": 0.0
                 },
                 "scale": {
-                    "x": 3.0,
-                    "y": 3.000016450881958,
-                    "z": 3.000016450881958
+                    "x": 1.0000061988830567,
+                    "y": 1.0000028610229493,
+                    "z": 1.0000030994415284
                 }
             },
             "isObstacle": false,
             "exportName": "",
             "elementNameSet": true,
-            "elementName": "Trigger",
+            "elementName": "Plane",
             "playerVariableNameSet": true,
-            "playerVariableName": "A_1",
-            "pickableType": 0,
+            "playerVariableName": "",
+            "pickableType": 2,
             "updateCloneTypeApplied": true,
             "updateCloneType": 0,
             "transparencyOrderOffset": 0,
-            "rigidbody": [
-                {
-                    "isKinematic": true,
-                    "mass": 1.0
-                }
-            ],
+            "rigidbody": [],
             "_switch": [],
             "turnable": [],
             "dial": [],
@@ -327,28 +282,7 @@
             "dragTarget": [],
             "_lock": [],
             "slot": [],
-            "trigger": [
-                {
-                    "canPlayerTrigger": true,
-                    "triggerWhenAllPlayersEnter": false,
-                    "isSticky": false,
-                    "outputValueApplied": true,
-                    "outputValue": 1,
-                    "keys": [],
-                    "targetsEnter": [
-                        {
-                            "value": 7
-                        }
-                    ],
-                    "locksEnter": [],
-                    "targetsExit": [
-                        {
-                            "value": 7
-                        }
-                    ],
-                    "locksExit": []
-                }
-            ],
+            "trigger": [],
             "teleport": [],
             "fog": [],
             "sound": [],

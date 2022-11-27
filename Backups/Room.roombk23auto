@@ -16,14 +16,14 @@
         "z": 0.0
     },
     "cameraEditPosition": {
-        "x": 0.1197027862071991,
-        "y": 2.930114507675171,
-        "z": -0.08946943283081055
+        "x": -1.961681604385376,
+        "y": 7.2247843742370609,
+        "z": -5.915175914764404
     },
     "cameraEditRotation": {
-        "x": 65.08270263671875,
-        "y": 19.660579681396486,
-        "z": 0.0000020264753857190955
+        "x": 50.361392974853519,
+        "y": 12.598504066467286,
+        "z": 6.691612384202017e-7
     },
     "useNonLegacyLights": true,
     "useNonLegacyFloorColliders": true,
@@ -206,7 +206,7 @@
             "elementNameSet": true,
             "elementName": "Plane",
             "playerVariableNameSet": true,
-            "playerVariableName": "A",
+            "playerVariableName": "",
             "pickableType": 2,
             "updateCloneTypeApplied": true,
             "updateCloneType": 0,
@@ -220,7 +220,7 @@
                     "outputValueApplied": true,
                     "outputValue": 1,
                     "bounce": true,
-                    "loop": false,
+                    "loop": true,
                     "autoplay": false,
                     "delay": 0.0,
                     "pauseOnLoop": 0.0,
@@ -300,8 +300,8 @@
                 },
                 "scale": {
                     "x": 3.0,
-                    "y": 3.000016450881958,
-                    "z": 3.000016450881958
+                    "y": 3.0000081062316896,
+                    "z": 3.0000081062316896
                 }
             },
             "isObstacle": false,
@@ -309,7 +309,7 @@
             "elementNameSet": true,
             "elementName": "Trigger",
             "playerVariableNameSet": true,
-            "playerVariableName": "A_1",
+            "playerVariableName": "",
             "pickableType": 0,
             "updateCloneTypeApplied": true,
             "updateCloneType": 0,
@@ -329,7 +329,7 @@
             "slot": [],
             "trigger": [
                 {
-                    "canPlayerTrigger": true,
+                    "canPlayerTrigger": false,
                     "triggerWhenAllPlayersEnter": false,
                     "isSticky": false,
                     "outputValueApplied": true,
@@ -341,11 +341,7 @@
                         }
                     ],
                     "locksEnter": [],
-                    "targetsExit": [
-                        {
-                            "value": 7
-                        }
-                    ],
+                    "targetsExit": [],
                     "locksExit": []
                 }
             ],
