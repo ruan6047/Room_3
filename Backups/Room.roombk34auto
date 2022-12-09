@@ -16,13 +16,13 @@
         "z": 0.0
     },
     "cameraEditPosition": {
-        "x": -0.4884593188762665,
-        "y": 1.3356056213378907,
-        "z": -4.145135402679443
+        "x": -0.06084572151303291,
+        "y": 1.3363622426986695,
+        "z": -4.5400071144104
     },
     "cameraEditRotation": {
-        "x": 6.252902030944824,
-        "y": 54.94696044921875,
+        "x": 33.38509750366211,
+        "y": 74.5970458984375,
         "z": 0.0
     },
     "useNonLegacyLights": true,
@@ -528,19 +528,19 @@
             "transform": {
                 "local": false,
                 "position": {
-                    "x": 0.9533984065055847,
-                    "y": 0.9333239197731018,
-                    "z": -3.6039865016937258
+                    "x": 0.9657829999923706,
+                    "y": 0.9227221608161926,
+                    "z": -3.505528688430786
                 },
                 "rotation": {
                     "x": 0.0,
                     "y": 90.0,
-                    "z": 90.0
+                    "z": 0.0
                 },
                 "scale": {
-                    "x": 0.5755362510681152,
-                    "y": 0.20865501463413239,
-                    "z": 1.0000022649765015
+                    "x": 0.5755360126495361,
+                    "y": 0.20865483582019807,
+                    "z": 1.000002145767212
                 }
             },
             "isObstacle": false,
@@ -583,6 +583,9 @@
                     "targetPlace": [
                         {
                             "value": 17
+                        },
+                        {
+                            "value": 25
                         }
                     ],
                     "targetRemove": [],
@@ -629,78 +632,10 @@
         },
         {
             "propID": {
-                "value": "Base/V1Props/V1Book"
-            },
-            "ID": {
-                "value": 26
-            },
-            "parentID": {
-                "value": 0
-            },
-            "transform": {
-                "local": false,
-                "position": {
-                    "x": 0.9640719890594482,
-                    "y": 0.060076575726270679,
-                    "z": -4.537339687347412
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 270.0
-                },
-                "scale": {
-                    "x": 1.0000017881393433,
-                    "y": 1.000001311302185,
-                    "z": 1.0000004768371583
-                }
-            },
-            "isObstacle": false,
-            "exportName": "",
-            "elementNameSet": true,
-            "elementName": "Red Book",
-            "playerVariableNameSet": true,
-            "playerVariableName": "",
-            "pickableType": 2,
-            "updateCloneTypeApplied": true,
-            "updateCloneType": 0,
-            "transparencyOrderOffset": 0,
-            "rigidbody": [
-                {
-                    "isKinematic": false,
-                    "mass": 1.0
-                }
-            ],
-            "_switch": [],
-            "turnable": [],
-            "dial": [],
-            "zoomable": [],
-            "dragTarget": [],
-            "_lock": [],
-            "slot": [],
-            "trigger": [],
-            "teleport": [],
-            "fog": [],
-            "sound": [],
-            "skybox": [],
-            "swapTextures": [],
-            "paintTextures": [],
-            "openLink": [],
-            "activatorComponent": [],
-            "editorLight": [],
-            "customModel": [],
-            "postProcessing": [],
-            "scriptComponent": [],
-            "finish": [],
-            "display": [],
-            "slidable": []
-        },
-        {
-            "propID": {
                 "value": "VictorianDoor"
             },
             "ID": {
-                "value": 27
+                "value": 23
             },
             "parentID": {
                 "value": 0
@@ -708,9 +643,9 @@
             "transform": {
                 "local": false,
                 "position": {
-                    "x": 0.43502986431121828,
+                    "x": 0.43785253167152407,
                     "y": 0.0049898624420166019,
-                    "z": -1.7428267002105713
+                    "z": -1.765897512435913
                 },
                 "rotation": {
                     "x": 270.019775390625,
@@ -808,17 +743,17 @@
                 "value": "Base/Slot"
             },
             "ID": {
-                "value": 28
+                "value": 24
             },
             "parentID": {
-                "value": 27
+                "value": 23
             },
             "transform": {
                 "local": false,
                 "position": {
-                    "x": -0.34187012910842898,
+                    "x": -0.33904746174812319,
                     "y": 0.7432834506034851,
-                    "z": -1.8113616704940797
+                    "z": -1.8344324827194214
                 },
                 "rotation": {
                     "x": 270.019775390625,
@@ -827,8 +762,8 @@
                 },
                 "scale": {
                     "x": 0.27832427620887759,
-                    "y": 0.2783241271972656,
-                    "z": 0.2783241271972656
+                    "y": 0.2783240079879761,
+                    "z": 0.2783240079879761
                 }
             },
             "isObstacle": false,
@@ -853,11 +788,7 @@
                     "unlockSuccess": 0,
                     "unlockSuccessKey": 0,
                     "unlockFailedKey": 1,
-                    "keys": [
-                        {
-                            "value": 29
-                        }
-                    ],
+                    "keys": [],
                     "rejectKeys": [],
                     "animationType": 0,
                     "turnDuration": 0.5,
@@ -870,7 +801,7 @@
                     "locks": [],
                     "targetPlace": [
                         {
-                            "value": 27
+                            "value": 23
                         }
                     ],
                     "targetRemove": [],
@@ -920,17 +851,17 @@
                 "value": "Base/V5Props/V5KeySilver"
             },
             "ID": {
-                "value": 29
+                "value": 25
             },
             "parentID": {
-                "value": 17
+                "value": 0
             },
             "transform": {
                 "local": false,
                 "position": {
-                    "x": 0.8351716995239258,
-                    "y": 0.8186179399490356,
-                    "z": -3.3985097408294679
+                    "x": -2.196885824203491,
+                    "y": 0.5059491991996765,
+                    "z": -3.2490673065185549
                 },
                 "rotation": {
                     "x": 270.019775390625,
@@ -939,7 +870,7 @@
                 },
                 "scale": {
                     "x": 1.0,
-                    "y": 0.9999999403953552,
+                    "y": 0.9999998807907105,
                     "z": 0.9999998807907105
                 }
             },
@@ -950,6 +881,109 @@
             "playerVariableNameSet": true,
             "playerVariableName": "",
             "pickableType": 1,
+            "updateCloneTypeApplied": true,
+            "updateCloneType": 0,
+            "transparencyOrderOffset": 0,
+            "rigidbody": [],
+            "_switch": [
+                {
+                    "isRemote": true,
+                    "isSticky": false,
+                    "duration": 0.0,
+                    "outputValueApplied": true,
+                    "outputValue": 1,
+                    "bounce": false,
+                    "loop": false,
+                    "autoplay": false,
+                    "delay": 0.0,
+                    "pauseOnLoop": 0.0,
+                    "pauseOnBounce": 0.0,
+                    "canPickupDuringAnimation": false,
+                    "appliedPickupInZoomFix": true,
+                    "playerVariableName": "",
+                    "interpolation": 0,
+                    "remoteTargets": [],
+                    "pivot": {
+                        "local": true,
+                        "position": {
+                            "x": -3.2300214767456056,
+                            "y": 2.3841860752327195e-7,
+                            "z": 0.21978144347667695
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    },
+                    "locks": [],
+                    "useRigidbody": false,
+                    "useRigidbodyApplied": true
+                }
+            ],
+            "turnable": [],
+            "dial": [],
+            "zoomable": [],
+            "dragTarget": [],
+            "_lock": [],
+            "slot": [],
+            "trigger": [],
+            "teleport": [],
+            "fog": [],
+            "sound": [],
+            "skybox": [],
+            "swapTextures": [],
+            "paintTextures": [],
+            "openLink": [],
+            "activatorComponent": [],
+            "editorLight": [],
+            "customModel": [],
+            "postProcessing": [],
+            "scriptComponent": [],
+            "finish": [],
+            "display": [],
+            "slidable": []
+        },
+        {
+            "propID": {
+                "value": "Base/V1Props/V1Book"
+            },
+            "ID": {
+                "value": 26
+            },
+            "parentID": {
+                "value": 0
+            },
+            "transform": {
+                "local": false,
+                "position": {
+                    "x": 0.9640719890594482,
+                    "y": 0.060076575726270679,
+                    "z": -4.537339687347412
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 270.0
+                },
+                "scale": {
+                    "x": 1.0000017881393433,
+                    "y": 1.000001311302185,
+                    "z": 1.0000004768371583
+                }
+            },
+            "isObstacle": false,
+            "exportName": "",
+            "elementNameSet": true,
+            "elementName": "Red Book",
+            "playerVariableNameSet": true,
+            "playerVariableName": "",
+            "pickableType": 2,
             "updateCloneTypeApplied": true,
             "updateCloneType": 0,
             "transparencyOrderOffset": 0,

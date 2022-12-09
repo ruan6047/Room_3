@@ -16,14 +16,14 @@
         "z": 0.0
     },
     "cameraEditPosition": {
-        "x": -0.4884593188762665,
-        "y": 1.3356056213378907,
-        "z": -4.145135402679443
+        "x": 0.0679929107427597,
+        "y": 1.1280370950698853,
+        "z": -2.9822986125946047
     },
     "cameraEditRotation": {
-        "x": 6.252902030944824,
-        "y": 54.94696044921875,
-        "z": 0.0
+        "x": 2.201568126678467,
+        "y": 22.059656143188478,
+        "z": 5.340026731914804e-8
     },
     "useNonLegacyLights": true,
     "useNonLegacyFloorColliders": true,
@@ -362,7 +362,7 @@
             "transform": {
                 "local": false,
                 "position": {
-                    "x": 0.8970550894737244,
+                    "x": 0.8970544934272766,
                     "y": 0.8024089932441711,
                     "z": -3.3185298442840578
                 },
@@ -372,8 +372,8 @@
                     "z": 0.0
                 },
                 "scale": {
-                    "x": 0.9999991655349731,
-                    "y": 0.9999991655349731,
+                    "x": 0.9999997615814209,
+                    "y": 0.9999997615814209,
                     "z": 1.0
                 }
             },
@@ -387,12 +387,17 @@
             "updateCloneTypeApplied": true,
             "updateCloneType": 0,
             "transparencyOrderOffset": 0,
-            "rigidbody": [],
+            "rigidbody": [
+                {
+                    "isKinematic": true,
+                    "mass": 1.0
+                }
+            ],
             "_switch": [
                 {
-                    "isRemote": true,
+                    "isRemote": false,
                     "isSticky": false,
-                    "duration": 1.0,
+                    "duration": 0.5,
                     "outputValueApplied": true,
                     "outputValue": 1,
                     "bounce": false,
@@ -402,16 +407,16 @@
                     "pauseOnLoop": 0.0,
                     "pauseOnBounce": 0.0,
                     "canPickupDuringAnimation": false,
-                    "appliedPickupInZoomFix": true,
+                    "appliedPickupInZoomFix": false,
                     "playerVariableName": "",
                     "interpolation": 0,
                     "remoteTargets": [],
                     "pivot": {
                         "local": true,
                         "position": {
-                            "x": 0.3090750575065613,
-                            "y": -0.0000015944248161758879,
-                            "z": 0.0
+                            "x": 0.25756603479385378,
+                            "y": 0.0000054389238357543949,
+                            "z": 0.0000278521329164505
                         },
                         "rotation": {
                             "x": 0.0,
@@ -420,8 +425,8 @@
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 1.0,
-                            "z": 1.0
+                            "y": 1.0000001192092896,
+                            "z": 1.0000001192092896
                         }
                     },
                     "locks": [],
@@ -517,190 +522,10 @@
         },
         {
             "propID": {
-                "value": "Base/Slot"
-            },
-            "ID": {
-                "value": 22
-            },
-            "parentID": {
-                "value": 0
-            },
-            "transform": {
-                "local": false,
-                "position": {
-                    "x": 0.9533984065055847,
-                    "y": 0.9333239197731018,
-                    "z": -3.6039865016937258
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 90.0,
-                    "z": 90.0
-                },
-                "scale": {
-                    "x": 0.5755362510681152,
-                    "y": 0.20865501463413239,
-                    "z": 1.0000022649765015
-                }
-            },
-            "isObstacle": false,
-            "exportName": "",
-            "elementNameSet": true,
-            "elementName": "Slot",
-            "playerVariableNameSet": true,
-            "playerVariableName": "",
-            "pickableType": 0,
-            "updateCloneTypeApplied": true,
-            "updateCloneType": 0,
-            "transparencyOrderOffset": 0,
-            "rigidbody": [],
-            "_switch": [],
-            "turnable": [],
-            "dial": [],
-            "zoomable": [],
-            "dragTarget": [],
-            "_lock": [],
-            "slot": [
-                {
-                    "unlockSuccess": 0,
-                    "unlockSuccessKey": 0,
-                    "unlockFailedKey": 1,
-                    "keys": [
-                        {
-                            "value": 26
-                        }
-                    ],
-                    "rejectKeys": [],
-                    "animationType": 0,
-                    "turnDuration": 0.5,
-                    "turnCount": 1.0,
-                    "turnAxis": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "locks": [],
-                    "targetPlace": [
-                        {
-                            "value": 17
-                        }
-                    ],
-                    "targetRemove": [],
-                    "locksRemove": [],
-                    "pivot": {
-                        "local": true,
-                        "position": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "rotation": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0,
-                            "z": 1.0
-                        }
-                    },
-                    "outputValueApplied": true,
-                    "outputValue": 1,
-                    "onlyUsableInZoom": false
-                }
-            ],
-            "trigger": [],
-            "teleport": [],
-            "fog": [],
-            "sound": [],
-            "skybox": [],
-            "swapTextures": [],
-            "paintTextures": [],
-            "openLink": [],
-            "activatorComponent": [],
-            "editorLight": [],
-            "customModel": [],
-            "postProcessing": [],
-            "scriptComponent": [],
-            "finish": [],
-            "display": [],
-            "slidable": []
-        },
-        {
-            "propID": {
-                "value": "Base/V1Props/V1Book"
-            },
-            "ID": {
-                "value": 26
-            },
-            "parentID": {
-                "value": 0
-            },
-            "transform": {
-                "local": false,
-                "position": {
-                    "x": 0.9640719890594482,
-                    "y": 0.060076575726270679,
-                    "z": -4.537339687347412
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 270.0
-                },
-                "scale": {
-                    "x": 1.0000017881393433,
-                    "y": 1.000001311302185,
-                    "z": 1.0000004768371583
-                }
-            },
-            "isObstacle": false,
-            "exportName": "",
-            "elementNameSet": true,
-            "elementName": "Red Book",
-            "playerVariableNameSet": true,
-            "playerVariableName": "",
-            "pickableType": 2,
-            "updateCloneTypeApplied": true,
-            "updateCloneType": 0,
-            "transparencyOrderOffset": 0,
-            "rigidbody": [
-                {
-                    "isKinematic": false,
-                    "mass": 1.0
-                }
-            ],
-            "_switch": [],
-            "turnable": [],
-            "dial": [],
-            "zoomable": [],
-            "dragTarget": [],
-            "_lock": [],
-            "slot": [],
-            "trigger": [],
-            "teleport": [],
-            "fog": [],
-            "sound": [],
-            "skybox": [],
-            "swapTextures": [],
-            "paintTextures": [],
-            "openLink": [],
-            "activatorComponent": [],
-            "editorLight": [],
-            "customModel": [],
-            "postProcessing": [],
-            "scriptComponent": [],
-            "finish": [],
-            "display": [],
-            "slidable": []
-        },
-        {
-            "propID": {
                 "value": "VictorianDoor"
             },
             "ID": {
-                "value": 27
+                "value": 19
             },
             "parentID": {
                 "value": 0
@@ -708,9 +533,9 @@
             "transform": {
                 "local": false,
                 "position": {
-                    "x": 0.43502986431121828,
+                    "x": 0.4298121929168701,
                     "y": 0.0049898624420166019,
-                    "z": -1.7428267002105713
+                    "z": -1.751344919204712
                 },
                 "rotation": {
                     "x": 270.019775390625,
@@ -780,186 +605,6 @@
                     "useRigidbodyApplied": true
                 }
             ],
-            "turnable": [],
-            "dial": [],
-            "zoomable": [],
-            "dragTarget": [],
-            "_lock": [],
-            "slot": [],
-            "trigger": [],
-            "teleport": [],
-            "fog": [],
-            "sound": [],
-            "skybox": [],
-            "swapTextures": [],
-            "paintTextures": [],
-            "openLink": [],
-            "activatorComponent": [],
-            "editorLight": [],
-            "customModel": [],
-            "postProcessing": [],
-            "scriptComponent": [],
-            "finish": [],
-            "display": [],
-            "slidable": []
-        },
-        {
-            "propID": {
-                "value": "Base/Slot"
-            },
-            "ID": {
-                "value": 28
-            },
-            "parentID": {
-                "value": 27
-            },
-            "transform": {
-                "local": false,
-                "position": {
-                    "x": -0.34187012910842898,
-                    "y": 0.7432834506034851,
-                    "z": -1.8113616704940797
-                },
-                "rotation": {
-                    "x": 270.019775390625,
-                    "y": 0.00001001791224553017,
-                    "z": 0.0
-                },
-                "scale": {
-                    "x": 0.27832427620887759,
-                    "y": 0.2783241271972656,
-                    "z": 0.2783241271972656
-                }
-            },
-            "isObstacle": false,
-            "exportName": "",
-            "elementNameSet": true,
-            "elementName": "Slot",
-            "playerVariableNameSet": true,
-            "playerVariableName": "",
-            "pickableType": 0,
-            "updateCloneTypeApplied": true,
-            "updateCloneType": 0,
-            "transparencyOrderOffset": 0,
-            "rigidbody": [],
-            "_switch": [],
-            "turnable": [],
-            "dial": [],
-            "zoomable": [],
-            "dragTarget": [],
-            "_lock": [],
-            "slot": [
-                {
-                    "unlockSuccess": 0,
-                    "unlockSuccessKey": 0,
-                    "unlockFailedKey": 1,
-                    "keys": [
-                        {
-                            "value": 29
-                        }
-                    ],
-                    "rejectKeys": [],
-                    "animationType": 0,
-                    "turnDuration": 0.5,
-                    "turnCount": 1.0,
-                    "turnAxis": {
-                        "x": 0.0,
-                        "y": -1.0,
-                        "z": 0.0
-                    },
-                    "locks": [],
-                    "targetPlace": [
-                        {
-                            "value": 27
-                        }
-                    ],
-                    "targetRemove": [],
-                    "locksRemove": [],
-                    "pivot": {
-                        "local": true,
-                        "position": {
-                            "x": 0.000003854797341773519,
-                            "y": 0.2351863831281662,
-                            "z": -0.009415128268301487
-                        },
-                        "rotation": {
-                            "x": -1.384177408109144e-11,
-                            "y": 0.0000034150946248701077,
-                            "z": 180.00045776367188
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0,
-                            "z": 1.0
-                        }
-                    },
-                    "outputValueApplied": true,
-                    "outputValue": 1,
-                    "onlyUsableInZoom": false
-                }
-            ],
-            "trigger": [],
-            "teleport": [],
-            "fog": [],
-            "sound": [],
-            "skybox": [],
-            "swapTextures": [],
-            "paintTextures": [],
-            "openLink": [],
-            "activatorComponent": [],
-            "editorLight": [],
-            "customModel": [],
-            "postProcessing": [],
-            "scriptComponent": [],
-            "finish": [],
-            "display": [],
-            "slidable": []
-        },
-        {
-            "propID": {
-                "value": "Base/V5Props/V5KeySilver"
-            },
-            "ID": {
-                "value": 29
-            },
-            "parentID": {
-                "value": 17
-            },
-            "transform": {
-                "local": false,
-                "position": {
-                    "x": 0.8351716995239258,
-                    "y": 0.8186179399490356,
-                    "z": -3.3985097408294679
-                },
-                "rotation": {
-                    "x": 270.019775390625,
-                    "y": 180.00015258789063,
-                    "z": 0.0
-                },
-                "scale": {
-                    "x": 1.0,
-                    "y": 0.9999999403953552,
-                    "z": 0.9999998807907105
-                }
-            },
-            "isObstacle": false,
-            "exportName": "",
-            "elementNameSet": true,
-            "elementName": "Key",
-            "playerVariableNameSet": true,
-            "playerVariableName": "",
-            "pickableType": 1,
-            "updateCloneTypeApplied": true,
-            "updateCloneType": 0,
-            "transparencyOrderOffset": 0,
-            "rigidbody": [
-                {
-                    "isKinematic": false,
-                    "mass": 1.0
-                }
-            ],
-            "_switch": [],
             "turnable": [],
             "dial": [],
             "zoomable": [],
